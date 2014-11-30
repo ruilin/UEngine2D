@@ -16,7 +16,7 @@ PRIVATE BOOL _view_debug_render(void *_this, void *super, Graphic *g) {
 	View_SysMsg *ctrl = (View_SysMsg *)_this;
 	Debug *sys = ui_getSystemMsg();
 	char msg[256];
-	sprintf(msg, "fps: %d", sys->fps);
+	sprintf(msg, "Fps: %d", sys->fps);
 	graphic_setTextColor(g, 10, 255, 10, 255);
 	graphic_setColor4f(g, 1.0f, 1.0f, 1.0f, 1.0f);
 	graphic_setTextStyle(g, 20, TEXT_STYLE_FILL);

@@ -18,6 +18,8 @@ PUBLIC BOOL logic_init(Engine *engine) {
 }
 
 PUBLIC BOOL logic_end(Engine *engine) {
+	view_debug_destroy(viewDebug);
+	viewDebug = NULL;
 	return TRUE;
 }
 

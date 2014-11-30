@@ -29,8 +29,9 @@ PUBLIC void renderer_draw(Engine *engine, Graphic *g) {
 	}
     graphic_setColor4f(g, 1.0f, 1.0f, 1.0f, 1.0f);
     canvas_fillRGB(1.0f, 1.0f, 1.0f);
-    graphic_setTextColor(g, 0, 0, 0, 255);
-    canvas_draw_string("Hello UEngine!!", g, 200, 100, ALIGN_CENTER);
+    graphic_setTextColor(g, 255, 255, 255, 255);
+    graphic_setTextStyle(g, 30, TEXT_STYLE_FILL_AND_STROKE);
+    canvas_draw_string("Hello UEngine!!", g, 400, 220, ALIGN_CENTER);
     return;
 }
 

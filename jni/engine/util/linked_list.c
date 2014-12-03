@@ -220,6 +220,7 @@ PUBLIC void *linked_list_getNext(void *_item) {
 
 PUBLIC void *linked_list_getPrev(void *_item) {
 	Linked_Item *item = (Linked_Item *)_item;
+	if (NULL == item || NULL ==item->prev) return NULL;
 	return item->prev->data;
 }
 

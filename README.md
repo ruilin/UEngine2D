@@ -11,6 +11,7 @@ UEngine2D
 * 图像绘制框架
 * UI框架
 * 数据结构包
+* 内存管理
 
 UEngine2D
 =========
@@ -25,3 +26,4 @@ For c/c++ developers game development of the underlying implementation, API enca
 * Image Render Manage
 * UI Framework
 * Data structure Utils
+* Memory Manage

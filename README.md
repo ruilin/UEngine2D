@@ -8,7 +8,7 @@ UEngine2D
 * 第三方库(libpng, liblua)
 * IO管理
 * JNI管理
-* 图像绘制框架
+* 图形绘制框架
 * UI框架
 * 数据结构包
 * 内存管理
